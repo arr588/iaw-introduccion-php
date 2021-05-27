@@ -1,0 +1,22 @@
+<!--Escribe un script que mediante un formulario permita seleccionar el número de monedas que se desean lanzar (de 1 a 20) y el tipo de moneda (Dólar Estadounidense, Euro, 
+Yen japonés, Libra esterlina, Franco suizo). El comportamiento tiene que ser similar al de la web random.org.-->
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Monedas</title>
+</head>
+<body>
+    <p> Elige el número de lanzamientos y el tipo de moneda </p>
+    <form action="ejercicio4.php" method="GET">
+        <input type="number" id="numero_de_monedas" name="numero_de_monedas" min="1" max="20">
+        <select name="tipo_moneda">
+            <option value="Yenes">Yenes</option>
+            <option value="Euros">Euros</option>
+        </select>
+        <button type="submit">Enviar</button>
+    </form>
+</body>
+</html>
