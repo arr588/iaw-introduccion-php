@@ -2,7 +2,6 @@
 /* 1. Tabla de multiplicar. */
 function imprimir_tabla_multiplicar($numero){
     echo "<table border=1>";
-    # Incremento de 1 a 10 usado en otras prácticas.
     for ($i = 0; $i <= 10; $i++){
         $resultado = $numero * $i;
         echo "<tr>";
@@ -81,19 +80,14 @@ echo "<b>El valor minimo es</b>: ".$minimo;
 }
 
 
-# Funcion "saludo"
 function saludo() {
     echo "Hola mundo!";
 }
 
-# Entrada: $nombre
-# Salida: -
 function saludo_usuario ($nombre){
     echo "Hola $nombre!";
 }
 
-# Entrada: $nombre
-# Salida: Cadena de texto
 function saludo_usuario_con_salida($nombre){
     return "Hola $nombre!"; 
 }
